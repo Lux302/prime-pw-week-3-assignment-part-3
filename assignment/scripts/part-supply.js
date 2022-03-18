@@ -77,12 +77,12 @@ console.log("Total parts available = " + (inventory));
 
 console.log('9. Filling boxes with a "while" loop');
 {
-    inventory = 572
-    boxes = 0
+    inventory = 572;
+    boxes = 0;
     while (inventory > 7){
         inventory-=7;
         boxes++;
     }
-    console.log(boxes);
-    console.log(inventory)
+    console.log('We filled '+boxes+' boxes.');
+    console.log('We have '+inventory+ ' leftover parts.');
 }
